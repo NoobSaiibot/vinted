@@ -24,7 +24,7 @@ app.use(userRoutes);
 app.use(offerRoutes);
 
 app.get("/", (req, res) => {
-  res.json({ message: "Welcolme on my server" });
+  res.json({ message: "Welcome on my server" });
 });
 
 app.all("*", (req, res) => {
